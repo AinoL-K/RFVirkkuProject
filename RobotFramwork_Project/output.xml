@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20221027 15:04:02.512" rpa="true" schemaversion="3">
+<suite id="s1" name="Tasks" source="c:\Users\Omistaja\OneDrive\Tiedostot\Ohjelmistorobotiikka (RPA)\RobotFramwork_Project\tasks.robot">
+<test id="s1-t1" name="Päätehtävä 1: Avaa verkkosivu ja täytä lomake" line="18">
+<status status="FAIL" starttime="20221027 15:04:23.165" endtime="20221027 15:04:23.175">Task contains no keywords.</status>
+</test>
+<test id="s1-t2" name="Päätehtävä 2: Kerää kriteereihin sopivat rally-toko kokeet ja laita excel tiedostoon" line="20">
+<status status="FAIL" starttime="20221027 15:04:23.181" endtime="20221027 15:04:23.189">Task contains no keywords.</status>
+</test>
+<test id="s1-t3" name="Päätehtävä 3: Lajittele tulokset" line="22">
+<status status="FAIL" starttime="20221027 15:04:23.195" endtime="20221027 15:04:23.202">Task contains no keywords.</status>
+</test>
+<test id="s1-t4" name="[Teardown] Sulje verkkosivu ja mahdolliset excel-tiedostot" line="24">
+<status status="FAIL" starttime="20221027 15:04:23.207" endtime="20221027 15:04:23.215">Task contains no keywords.</status>
+</test>
+<test id="s1-t5" name="Ongelmatilanne: Ilmoittaa ongelmasta ja pyytää ihmisen apua" line="26">
+<status status="FAIL" starttime="20221027 15:04:23.219" endtime="20221027 15:04:23.227">Task contains no keywords.</status>
+</test>
+<doc>Etsi sopivia kokeita ja listaa ne Excel tiedostoon</doc>
+<status status="FAIL" starttime="20221027 15:04:02.606" endtime="20221027 15:04:23.233"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="5" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="5" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20221027 15:04:20.291" level="WARN">Environment variable `RC_JAVA_ACCESS_BRIDGE_DLL` needs to be set to absolute path of `WindowsAccessBridge-64.dll`</msg>
+<msg timestamp="20221027 15:04:21.473" level="WARN">c:\ProgramData\robocorp\ht\3d74f15_b1f3c24_691db988\lib\site-packages\RPA\Desktop\Windows.py:209: FutureWarning: `RPA.Desktop.Windows` got deprecated and will be no longer maintained, please use `RPA.Windows` instead (https://robocorp.com/docs/libraries/rpa-framework/rpa-windows)
+  deprecation(
+</msg>
+</errors>
+</robot>
